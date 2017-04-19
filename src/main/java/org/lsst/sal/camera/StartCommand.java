@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.lsst.sal.camera;
 
 import java.time.Duration;
@@ -12,25 +7,42 @@ import org.lsst.sal.SAL_camera;
  *
  * @author tonyj
  */
-class StartCommand extends CameraCommand {
+public class StartCommand extends CameraCommand {
 
-    public StartCommand(int cmdId, SAL_camera mgr, String configuration) {
+    private final String configuration;
+
+    public StartCommand(String configuration) {
+        this.configuration = configuration;
+    }
+    
+    StartCommand(int cmdId, SAL_camera mgr, String configuration) {
         super(cmdId, mgr);
+        this.configuration = configuration;
+    }
+
+    public String getConfiguration() {
+        return configuration;
     }
 
     @Override
     CommandResponse issueCommand(SAL_camera mgr) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        camera.command_start cmd = new camera.command_start();
+        cmd.configuration = configuration;
+        int cmdId = mgr.issueCommand_start(cmd);
+        return new CommandResponse(mgr, this,cmdId);    }
 
     @Override
-    public void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
+        mgr.waitForCompletion_start(cmdId, (int) timeout.getSeconds());
     }
 
     @Override
     void acknowledgeCommand(int response, int timeout, String message) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        getManager().ackCommand_start(getCmdId(), response, timeout, message);
+    }     
+
+    @Override
+    public String toString() {
+        return "StartCommand{" + "configuration=" + configuration + '}';
     }
-    
 }

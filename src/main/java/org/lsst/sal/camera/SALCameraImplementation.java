@@ -18,6 +18,16 @@ class SALCameraImplementation extends SALCamera {
         mgr = new SAL_camera();
         //TODO: Some checks that connection was succesful, to prevent later
         // unexpected errors
+        mgr.salProcessor("camera_command_setFilter");
+        mgr.salProcessor("camera_command_takeImages");
+        mgr.salProcessor("camera_command_initImage");
+        mgr.salProcessor("camera_command_initGuiders");
+        mgr.salProcessor("camera_command_enable");
+        mgr.salProcessor("camera_command_disable");
+        mgr.salProcessor("camera_command_enterControl");
+        mgr.salProcessor("camera_command_exitControl");
+        mgr.salProcessor("camera_command_start");
+        mgr.salProcessor("camera_command_standby");
     }
 
     @Override
@@ -26,23 +36,15 @@ class SALCameraImplementation extends SALCamera {
         Instant stop = Instant.now().plus(timeout);
 
         // Currently we have to poll for each command
-        mgr.salProcessor("camera_command_setFilter");
         camera.command_setFilter setFilterCommand = new camera.command_setFilter();
-        mgr.salProcessor("camera_command_takeImages");
         camera.command_takeImages takeImagesCommand = new camera.command_takeImages();
-        mgr.salProcessor("camera_command_initImage");
         camera.command_initImage initImageCommand = new camera.command_initImage();
-        mgr.salProcessor("camera_command_enable");
+        camera.command_initGuiders initGuidersCommand = new camera.command_initGuiders();
         camera.command_enable enableCommand = new camera.command_enable();
-        mgr.salProcessor("camera_command_disable");
         camera.command_disable disableCommand = new camera.command_disable();
-        mgr.salProcessor("camera_command_enterControl");
         camera.command_enterControl enterControlCommand = new camera.command_enterControl();
-        mgr.salProcessor("camera_command_exitControl");
         camera.command_exitControl exitControlCommand = new camera.command_exitControl();
-        mgr.salProcessor("camera_command_start");
         camera.command_start startCommand = new camera.command_start();
-        mgr.salProcessor("camera_command_standby");
         camera.command_standby standbyCommand = new camera.command_standby();
 
         while (!Instant.now().isAfter(stop)) {
@@ -58,6 +60,10 @@ class SALCameraImplementation extends SALCamera {
             cmdId = mgr.acceptCommand_initImage(initImageCommand);
             if (cmdId > 0) {
                 return new InitImageCommand(cmdId, mgr, initImageCommand.deltaT);
+            }
+            cmdId = mgr.acceptCommand_initGuiders(initGuidersCommand);
+            if (cmdId > 0) {
+                return new InitGuidersCommand(cmdId, mgr, initGuidersCommand.roiSpec);
             }
             cmdId = mgr.acceptCommand_enable(enableCommand);
             if (cmdId > 0) {
@@ -114,7 +120,7 @@ class SALCameraImplementation extends SALCamera {
 
         while (!Instant.now().isAfter(stop)) {
             int rc = mgr.getEvent_SummaryState(summaryStateEvent);
-            if (rc  == SAL_camera.SAL__OK) {
+            if (rc == SAL_camera.SAL__OK) {
                 return new SummaryStateEvent(summaryStateEvent.priority, summaryStateEvent.SummaryStateValue);
             }
             try {

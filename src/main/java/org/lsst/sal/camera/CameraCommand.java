@@ -24,7 +24,7 @@ public abstract class CameraCommand {
 
     abstract CommandResponse issueCommand(SAL_camera mgr);
 
-    public abstract void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout);
+    abstract void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout);
 
     public void acknowledgeCommand(Duration timeout) {
         acknowledgeCommand(SAL_camera.SAL__CMD_INPROGRESS, (int) timeout.getSeconds(), "Ack : OK");

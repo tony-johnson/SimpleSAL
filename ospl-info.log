@@ -280,3 +280,3469 @@ Node        : Rivendell
 Process     : java <10256>
 Thread      : durability 7f8f0e8f0700
 Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492543430.109800898
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <11360>
+Thread      : main thread 7fdfda00a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492545271.072410743
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <11360>
+Thread      : spliced 7fdfe8020700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492545271.078220758
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <11360>
+Thread      : spliced 7fdfe8020700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492545271.084131917
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <11360>
+Thread      : spliced 7fdfe8020700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492545271.084776460
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : SOAP service is reachable via port 37167
+Node        : Rivendell
+Process     : java <11360>
+Thread      : cmsoap 7fdfd89d6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492545271.085594835
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <11360>
+Thread      : cmsoap 7fdfd89d6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492545271.085734129
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <11360>
+Thread      : ddsi2 7fdfd8305700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492545271.088326458
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:31 PDT 2017
+Description : The durability service can by identified by ID: 551738942
+Node        : Rivendell
+Process     : java <11360>
+Thread      : durability 7fdfd8677700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492545271.093716280
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 12:54:38 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <11360>
+Thread      : durability 7fdfd8677700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492545278.102091326
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <13886>
+Thread      : main thread 7f4ebb822700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492550148.475776408
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <13886>
+Thread      : spliced 7f4f04059700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492550148.483774160
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <13886>
+Thread      : spliced 7f4f04059700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492550148.487463278
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <13886>
+Thread      : spliced 7f4f04059700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492550148.488038062
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : SOAP service is reachable via port 33365
+Node        : Rivendell
+Process     : java <13886>
+Thread      : cmsoap 7f4eba1ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492550148.488849705
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <13886>
+Thread      : cmsoap 7f4eba1ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492550148.489020929
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <13886>
+Thread      : ddsi2 7f4eb9b1d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492550148.492884337
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:48 PDT 2017
+Description : The durability service can by identified by ID: 5369105
+Node        : Rivendell
+Process     : java <13886>
+Thread      : durability 7f4eb9e8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492550148.498617169
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:15:55 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <13886>
+Thread      : durability 7f4eb9e8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492550155.506485656
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <14688>
+Thread      : main thread 7f754d404700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492551321.344254081
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <14688>
+Thread      : spliced 7f7588032700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492551321.356474181
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <14688>
+Thread      : spliced 7f7588032700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492551321.362083939
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14688>
+Thread      : spliced 7f7588032700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551321.362606458
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : SOAP service is reachable via port 44362
+Node        : Rivendell
+Process     : java <14688>
+Thread      : cmsoap 7f754c1d0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492551321.363451438
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14688>
+Thread      : cmsoap 7f754c1d0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551321.363730843
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14688>
+Thread      : ddsi2 7f74ff5ae700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551321.366606235
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:21 PDT 2017
+Description : The durability service can by identified by ID: 885930537
+Node        : Rivendell
+Process     : java <14688>
+Thread      : durability 7f74ff920700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492551321.370239520
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:35:28 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14688>
+Thread      : durability 7f74ff920700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551328.377093250
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <14998>
+Thread      : main thread 7f3f883dd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492551420.952907046
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <14998>
+Thread      : spliced 7f3fa0022700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492551420.960867997
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <14998>
+Thread      : spliced 7f3fa0022700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492551420.964611754
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14998>
+Thread      : spliced 7f3fa0022700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551420.965068695
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : SOAP service is reachable via port 46511
+Node        : Rivendell
+Process     : java <14998>
+Thread      : cmsoap 7f3f6ae27700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492551420.965870969
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14998>
+Thread      : cmsoap 7f3f6ae27700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551420.966080331
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14998>
+Thread      : ddsi2 7f3f6a756700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551420.970063057
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:00 PDT 2017
+Description : The durability service can by identified by ID: 472671389
+Node        : Rivendell
+Process     : java <14998>
+Thread      : durability 7f3f6aac8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492551420.972981747
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 14:37:07 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <14998>
+Thread      : durability 7f3f6aac8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492551427.980454525
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <15946>
+Thread      : main thread 7f8753620700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492552803.748100548
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <15946>
+Thread      : spliced 7f8798087700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492552803.754135695
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <15946>
+Thread      : spliced 7f8798087700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492552803.757853820
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <15946>
+Thread      : spliced 7f8798087700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492552803.758393529
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : SOAP service is reachable via port 43005
+Node        : Rivendell
+Process     : java <15946>
+Thread      : cmsoap 7f875206d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492552803.763265159
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <15946>
+Thread      : cmsoap 7f875206d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492552803.763444430
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <15946>
+Thread      : ddsi2 7f875199c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492552803.765407811
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:03 PDT 2017
+Description : The durability service can by identified by ID: 1875876177
+Node        : Rivendell
+Process     : java <15946>
+Thread      : durability 7f8751d0e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492552803.868812385
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:00:10 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <15946>
+Thread      : durability 7f8751d0e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492552810.876284382
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <16566>
+Thread      : main thread 7fd8dbafa700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492553975.904794325
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <16566>
+Thread      : spliced 7fd92c030700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492553975.912466102
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <16566>
+Thread      : spliced 7fd92c030700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492553975.917124115
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16566>
+Thread      : spliced 7fd92c030700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553975.917570379
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : SOAP service is reachable via port 35148
+Node        : Rivendell
+Process     : java <16566>
+Thread      : cmsoap 7fd8da4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492553975.918267340
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16566>
+Thread      : cmsoap 7fd8da4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553975.918543816
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16566>
+Thread      : ddsi2 7fd8d9df5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553975.921371079
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:35 PDT 2017
+Description : The durability service can by identified by ID: 58592567
+Node        : Rivendell
+Process     : java <16566>
+Thread      : durability 7fd8da167700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492553975.924942779
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:42 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16566>
+Thread      : durability 7fd8da167700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553982.933369731
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <16689>
+Thread      : main thread 7f9853119700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492553999.041202300
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <16689>
+Thread      : spliced 7f988c037700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492553999.047105651
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <16689>
+Thread      : spliced 7f988c037700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492553999.050803091
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16689>
+Thread      : spliced 7f988c037700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553999.051211822
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : SOAP service is reachable via port 38137
+Node        : Rivendell
+Process     : java <16689>
+Thread      : cmsoap 7f9851ae5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492553999.051874707
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16689>
+Thread      : cmsoap 7f9851ae5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553999.052017266
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16689>
+Thread      : ddsi2 7f9851414700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492553999.055946767
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:19:59 PDT 2017
+Description : The durability service can by identified by ID: 316360737
+Node        : Rivendell
+Process     : java <16689>
+Thread      : durability 7f9851786700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492553999.058841309
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:06 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16689>
+Thread      : durability 7f9851786700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554006.067211657
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <16861>
+Thread      : main thread 7f1be7923700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492554058.469166815
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <16861>
+Thread      : spliced 7f1c2c034700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492554058.475070541
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <16861>
+Thread      : spliced 7f1c2c034700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492554058.480993138
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16861>
+Thread      : spliced 7f1c2c034700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554058.481570035
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : SOAP service is reachable via port 45309
+Node        : Rivendell
+Process     : java <16861>
+Thread      : cmsoap 7f1be62ef700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492554058.482409469
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16861>
+Thread      : cmsoap 7f1be62ef700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554058.482678690
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16861>
+Thread      : ddsi2 7f1be5c1e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554058.485542981
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:20:58 PDT 2017
+Description : The durability service can by identified by ID: 679385606
+Node        : Rivendell
+Process     : java <16861>
+Thread      : durability 7f1be5f90700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492554058.488493884
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:21:05 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <16861>
+Thread      : durability 7f1be5f90700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554065.496284587
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <17118>
+Thread      : main thread 7f8318468700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492554422.461812074
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <17118>
+Thread      : spliced 7f8330025700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492554422.468448235
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <17118>
+Thread      : spliced 7f8330025700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492554422.472163633
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <17118>
+Thread      : spliced 7f8330025700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554422.472619311
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : SOAP service is reachable via port 37822
+Node        : Rivendell
+Process     : java <17118>
+Thread      : cmsoap 7f82c6ea8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492554422.473351273
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <17118>
+Thread      : cmsoap 7f82c6ea8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554422.473499261
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <17118>
+Thread      : ddsi2 7f82c67d7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554422.476378144
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:02 PDT 2017
+Description : The durability service can by identified by ID: 1624272855
+Node        : Rivendell
+Process     : java <17118>
+Thread      : durability 7f82c6b49700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492554422.479072453
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:27:09 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <17118>
+Thread      : durability 7f82c6b49700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492554429.486308802
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:48:15 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <18797>
+Thread      : main thread 7f241650f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492555695.991986863
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <18797>
+Thread      : spliced 7f244c065700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492555696.013149145
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <18797>
+Thread      : spliced 7f244c065700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492555696.027855686
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <18797>
+Thread      : spliced 7f244c065700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492555696.029689804
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : SOAP service is reachable via port 42368
+Node        : Rivendell
+Process     : java <18797>
+Thread      : cmsoap 7f2414f5c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492555696.032120985
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <18797>
+Thread      : cmsoap 7f2414f5c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492555696.032648242
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <18797>
+Thread      : ddsi2 7f241488b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492555696.048135006
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:16 PDT 2017
+Description : The durability service can by identified by ID: 802612093
+Node        : Rivendell
+Process     : java <18797>
+Thread      : durability 7f2414bfd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492555696.157560945
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:48:23 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <18797>
+Thread      : durability 7f2414bfd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492555703.165754446
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19229>
+Thread      : main thread 7fe21ced4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556272.728600963
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19229>
+Thread      : spliced 7fe25004c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556272.751899715
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19229>
+Thread      : spliced 7fe25004c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556272.773460832
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19229>
+Thread      : spliced 7fe25004c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556272.775811077
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : SOAP service is reachable via port 42908
+Node        : Rivendell
+Process     : java <19229>
+Thread      : cmsoap 7fe1df870700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556272.778920778
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19229>
+Thread      : cmsoap 7fe1df870700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556272.779505861
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19229>
+Thread      : ddsi2 7fe1df19f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556272.797446489
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:52 PDT 2017
+Description : The durability service can by identified by ID: 1023596087
+Node        : Rivendell
+Process     : java <19229>
+Thread      : durability 7fe1df511700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556272.904378944
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 15:57:59 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19229>
+Thread      : durability 7fe1df511700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556279.913119501
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19420>
+Thread      : main thread 7f8c9dedc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556446.639726758
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19420>
+Thread      : spliced 7f8cd808a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556446.661597759
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19420>
+Thread      : spliced 7f8cd808a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556446.675569479
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19420>
+Thread      : spliced 7f8cd808a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556446.677312782
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : SOAP service is reachable via port 34738
+Node        : Rivendell
+Process     : java <19420>
+Thread      : cmsoap 7f8c9c929700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556446.680236370
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19420>
+Thread      : cmsoap 7f8c9c929700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556446.680795260
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19420>
+Thread      : ddsi2 7f8c9c258700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556446.694683632
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:46 PDT 2017
+Description : The durability service can by identified by ID: 1756881284
+Node        : Rivendell
+Process     : java <19420>
+Thread      : durability 7f8c9c5ca700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556446.707592473
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:00:53 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19420>
+Thread      : durability 7f8c9c5ca700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556453.716025476
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19542>
+Thread      : main thread 7f195a8e6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556504.060492088
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19542>
+Thread      : spliced 7f19680f0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556504.091802349
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19542>
+Thread      : spliced 7f19680f0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556504.114545944
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19542>
+Thread      : spliced 7f19680f0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556504.116737577
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : SOAP service is reachable via port 43969
+Node        : Rivendell
+Process     : java <19542>
+Thread      : cmsoap 7f1959333700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556504.119520057
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19542>
+Thread      : cmsoap 7f1959333700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556504.120138390
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19542>
+Thread      : ddsi2 7f1958c62700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556504.132789174
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:44 PDT 2017
+Description : The durability service can by identified by ID: 14678302
+Node        : Rivendell
+Process     : java <19542>
+Thread      : durability 7f1958fd4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556504.249763995
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:01:51 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19542>
+Thread      : durability 7f1958fd4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556511.258980439
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19674>
+Thread      : main thread 7f5c64794700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556571.313328498
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19674>
+Thread      : spliced 7f5c7c017700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556571.339738903
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19674>
+Thread      : spliced 7f5c7c017700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556571.353310049
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19674>
+Thread      : spliced 7f5c7c017700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556571.354859873
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : SOAP service is reachable via port 42207
+Node        : Rivendell
+Process     : java <19674>
+Thread      : cmsoap 7f5c471d0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556571.357515053
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19674>
+Thread      : cmsoap 7f5c471d0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556571.357957800
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19674>
+Thread      : ddsi2 7f5c46aff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556571.372453175
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:51 PDT 2017
+Description : The durability service can by identified by ID: 99465669
+Node        : Rivendell
+Process     : java <19674>
+Thread      : durability 7f5c46e71700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556571.384605283
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:02:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19674>
+Thread      : durability 7f5c46e71700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556578.393161585
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19806>
+Thread      : main thread 7f891b620700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556655.873831019
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19806>
+Thread      : spliced 7f895c0b9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556655.893757661
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19806>
+Thread      : spliced 7f895c0b9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556655.907984750
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19806>
+Thread      : spliced 7f895c0b9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556655.909620861
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : SOAP service is reachable via port 40462
+Node        : Rivendell
+Process     : java <19806>
+Thread      : cmsoap 7f891a06d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556655.912199000
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19806>
+Thread      : cmsoap 7f891a06d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556655.912621863
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19806>
+Thread      : ddsi2 7f891999c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556655.923828633
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:15 PDT 2017
+Description : The durability service can by identified by ID: 10952684
+Node        : Rivendell
+Process     : java <19806>
+Thread      : durability 7f8919d0e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556655.935492442
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:22 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19806>
+Thread      : durability 7f8919d0e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556662.944574668
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <19925>
+Thread      : main thread 7f31c6e49700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556679.730504079
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <19925>
+Thread      : spliced 7f31c4051700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556679.749982193
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <19925>
+Thread      : spliced 7f31c4051700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556679.763854704
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19925>
+Thread      : spliced 7f31c4051700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556679.765439155
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : SOAP service is reachable via port 35216
+Node        : Rivendell
+Process     : java <19925>
+Thread      : cmsoap 7f315b0b1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556679.768144070
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19925>
+Thread      : cmsoap 7f315b0b1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556679.768730416
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <19925>
+Thread      : ddsi2 7f315a9e0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556679.779452393
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:04:39 PDT 2017
+Description : The durability service can by identified by ID: 466494935
+Node        : Rivendell
+Process     : java <19925>
+Thread      : durability 7f315ad52700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556679.798481584
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:04:46 PDT 2017
+Description : Given DomainParticipant is invalid: result = RETCODE_ALREADY_DELETED
+Node        : Rivendell
+Process     : java <19925>
+Thread      : 7f31ac5ef700
+Internals   : V6.4.140320OSS/24b1387/24b1387/gapi_domainParticipant_get_default_publisher_qos/gapi_domainParticipant.c/2566/0/1492556686.011886206
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20042>
+Thread      : main thread 7fb61bafa700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556709.133628015
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20042>
+Thread      : spliced 7fb65003c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556709.159710138
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20042>
+Thread      : spliced 7fb65003c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556709.173265630
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20042>
+Thread      : spliced 7fb65003c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556709.175198454
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : SOAP service is reachable via port 42943
+Node        : Rivendell
+Process     : java <20042>
+Thread      : cmsoap 7fb61a4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556709.177562208
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20042>
+Thread      : cmsoap 7fb61a4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556709.178334417
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20042>
+Thread      : ddsi2 7fb619df5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556709.189320947
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:09 PDT 2017
+Description : The durability service can by identified by ID: 1493738085
+Node        : Rivendell
+Process     : java <20042>
+Thread      : durability 7fb61a167700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556709.200091314
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:16 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20042>
+Thread      : durability 7fb61a167700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556716.210475923
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20208>
+Thread      : main thread 7fb17fafa700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556741.818577268
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20208>
+Thread      : spliced 7fb1b4074700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556741.840816896
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20208>
+Thread      : spliced 7fb1b4074700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556741.854455319
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20208>
+Thread      : spliced 7fb1b4074700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556741.856308531
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : SOAP service is reachable via port 42286
+Node        : Rivendell
+Process     : java <20208>
+Thread      : cmsoap 7fb17e4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556741.858974922
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20208>
+Thread      : cmsoap 7fb17e4c6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556741.859566743
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20208>
+Thread      : ddsi2 7fb17ddf5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556741.870033798
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:05:41 PDT 2017
+Description : The durability service can by identified by ID: 1204605783
+Node        : Rivendell
+Process     : java <20208>
+Thread      : durability 7fb17e167700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556741.880094462
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20333>
+Thread      : main thread 7f9e7a30b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556764.866777755
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20333>
+Thread      : spliced 7f9eb4031700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556764.887047555
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20333>
+Thread      : spliced 7f9eb4031700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556764.902938457
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20333>
+Thread      : spliced 7f9eb4031700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556764.904998959
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : SOAP service is reachable via port 46189
+Node        : Rivendell
+Process     : java <20333>
+Thread      : cmsoap 7f9e78cd7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556764.908147059
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20333>
+Thread      : cmsoap 7f9e78cd7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556764.908589648
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20333>
+Thread      : ddsi2 7f9e78606700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556764.918149199
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:04 PDT 2017
+Description : The durability service can by identified by ID: 690099375
+Node        : Rivendell
+Process     : java <20333>
+Thread      : durability 7f9e78978700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556764.928900289
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:11 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20333>
+Thread      : durability 7f9e78978700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556771.938326794
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20449>
+Thread      : main thread 7fb2cd72a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556800.541570994
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20449>
+Thread      : spliced 7fb2f401b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556800.561795516
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20449>
+Thread      : spliced 7fb2f401b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556800.575688045
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20449>
+Thread      : spliced 7fb2f401b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556800.577572433
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : SOAP service is reachable via port 37070
+Node        : Rivendell
+Process     : java <20449>
+Thread      : cmsoap 7fb28ffff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556800.580492041
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20449>
+Thread      : cmsoap 7fb28ffff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556800.581053358
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20449>
+Thread      : ddsi2 7fb28f92e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556800.590029936
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:40 PDT 2017
+Description : The durability service can by identified by ID: 1661285918
+Node        : Rivendell
+Process     : java <20449>
+Thread      : durability 7fb28fca0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556800.602524577
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:06:47 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20449>
+Thread      : durability 7fb28fca0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556807.611631117
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20567>
+Thread      : main thread 7f3bbf21c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492556862.862522267
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20567>
+Thread      : spliced 7f3be0061700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492556862.881659384
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20567>
+Thread      : spliced 7f3be0061700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492556862.895427635
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20567>
+Thread      : spliced 7f3be0061700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556862.897358153
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : SOAP service is reachable via port 33670
+Node        : Rivendell
+Process     : java <20567>
+Thread      : cmsoap 7f3bbdc69700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492556862.899828508
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20567>
+Thread      : cmsoap 7f3bbdc69700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556862.900461178
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20567>
+Thread      : ddsi2 7f3bbd598700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556862.911137828
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:42 PDT 2017
+Description : The durability service can by identified by ID: 211556528
+Node        : Rivendell
+Process     : java <20567>
+Thread      : durability 7f3bbd90a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492556862.921814444
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:07:49 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20567>
+Thread      : durability 7f3bbd90a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492556869.931788638
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <20710>
+Thread      : main thread 7f343d0ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492557006.678801528
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <20710>
+Thread      : spliced 7f34380c3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492557006.698848387
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <20710>
+Thread      : spliced 7f34380c3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492557006.720646033
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20710>
+Thread      : spliced 7f34380c3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557006.723006753
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : SOAP service is reachable via port 42134
+Node        : Rivendell
+Process     : java <20710>
+Thread      : cmsoap 7f3415360700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492557006.726206755
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20710>
+Thread      : cmsoap 7f3415360700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557006.727032775
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20710>
+Thread      : ddsi2 7f3414c8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557006.738331673
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:06 PDT 2017
+Description : The durability service can by identified by ID: 1433814386
+Node        : Rivendell
+Process     : java <20710>
+Thread      : durability 7f3415001700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492557006.755211046
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:10:13 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <20710>
+Thread      : durability 7f3415001700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557013.763742338
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <21008>
+Thread      : main thread 7f873adcc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492557097.264291044
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <21008>
+Thread      : spliced 7f873804a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492557097.284186733
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <21008>
+Thread      : spliced 7f873804a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492557097.307245027
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21008>
+Thread      : spliced 7f873804a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557097.309718875
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : SOAP service is reachable via port 42486
+Node        : Rivendell
+Process     : java <21008>
+Thread      : cmsoap 7f87130b1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492557097.313757324
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21008>
+Thread      : cmsoap 7f87130b1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557097.314424882
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21008>
+Thread      : ddsi2 7f87129e0700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557097.330452094
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:37 PDT 2017
+Description : The durability service can by identified by ID: 1573491393
+Node        : Rivendell
+Process     : java <21008>
+Thread      : durability 7f8712d52700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492557097.436355542
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:11:44 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21008>
+Thread      : durability 7f8712d52700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557104.446133017
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <21293>
+Thread      : main thread 7fd08dddd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492557495.847873991
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <21293>
+Thread      : spliced 7fd0880c5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492557495.866271344
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <21293>
+Thread      : spliced 7fd0880c5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492557495.879924609
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21293>
+Thread      : spliced 7fd0880c5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557495.881920302
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : SOAP service is reachable via port 38725
+Node        : Rivendell
+Process     : java <21293>
+Thread      : cmsoap 7fd04a0ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492557495.885593362
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21293>
+Thread      : cmsoap 7fd04a0ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557495.886157509
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21293>
+Thread      : ddsi2 7fd049a1d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557495.895560113
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:15 PDT 2017
+Description : The durability service can by identified by ID: 1713792306
+Node        : Rivendell
+Process     : java <21293>
+Thread      : durability 7fd049d8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492557495.908330176
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:18:22 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21293>
+Thread      : durability 7fd049d8f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557502.916930305
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <21500>
+Thread      : main thread 7fe14f8af700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492557769.594893541
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <21500>
+Thread      : spliced 7fe1380a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492557769.613746948
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <21500>
+Thread      : spliced 7fe1380a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492557769.627432375
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21500>
+Thread      : spliced 7fe1380a1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557769.628868066
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : SOAP service is reachable via port 36156
+Node        : Rivendell
+Process     : java <21500>
+Thread      : cmsoap 7fe0c3b7e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492557769.631141903
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21500>
+Thread      : cmsoap 7fe0c3b7e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557769.631636000
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21500>
+Thread      : ddsi2 7fe0c34ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557769.643227707
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:49 PDT 2017
+Description : The durability service can by identified by ID: 1589924201
+Node        : Rivendell
+Process     : java <21500>
+Thread      : durability 7fe0c381f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492557769.654729767
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:22:56 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21500>
+Thread      : durability 7fe0c381f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557776.663702654
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <21738>
+Thread      : main thread 7fdf6f454700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492557819.707121978
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <21738>
+Thread      : spliced 7fdf6c081700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492557819.732965095
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <21738>
+Thread      : spliced 7fdf6c081700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492557819.746399674
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21738>
+Thread      : spliced 7fdf6c081700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557819.748007382
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : SOAP service is reachable via port 37183
+Node        : Rivendell
+Process     : java <21738>
+Thread      : cmsoap 7fdf0b76e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492557819.750474799
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21738>
+Thread      : cmsoap 7fdf0b76e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557819.750946646
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21738>
+Thread      : ddsi2 7fdf0b09d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557819.760514814
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:39 PDT 2017
+Description : The durability service can by identified by ID: 894942123
+Node        : Rivendell
+Process     : java <21738>
+Thread      : durability 7fdf0b40f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492557819.772461922
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:23:46 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21738>
+Thread      : durability 7fdf0b40f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492557826.782201243
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <21967>
+Thread      : main thread 7f38157ee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558007.384338498
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <21967>
+Thread      : spliced 7f38100dc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558007.403325702
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <21967>
+Thread      : spliced 7f38100dc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558007.417070147
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21967>
+Thread      : spliced 7f38100dc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558007.418739721
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : SOAP service is reachable via port 45513
+Node        : Rivendell
+Process     : java <21967>
+Thread      : cmsoap 7f37d5ae8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558007.421663636
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21967>
+Thread      : cmsoap 7f37d5ae8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558007.422126898
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21967>
+Thread      : ddsi2 7f37d5417700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558007.432382675
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:47 PDT 2017
+Description : The durability service can by identified by ID: 517528136
+Node        : Rivendell
+Process     : java <21967>
+Thread      : durability 7f37d5789700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558007.453078396
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:26:54 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <21967>
+Thread      : durability 7f37d5789700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558014.462633849
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:28:07 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <22095>
+Thread      : main thread 7f32388e1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558087.980411036
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:07 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <22095>
+Thread      : spliced 7f32340d6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558087.999043053
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <22095>
+Thread      : spliced 7f32340d6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558088.012640836
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22095>
+Thread      : spliced 7f32340d6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558088.014341421
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : SOAP service is reachable via port 39669
+Node        : Rivendell
+Process     : java <22095>
+Thread      : cmsoap 7f31f8c57700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558088.017883421
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22095>
+Thread      : cmsoap 7f31f8c57700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558088.018425068
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22095>
+Thread      : ddsi2 7f31f8586700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558088.028859605
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:08 PDT 2017
+Description : The durability service can by identified by ID: 1045455297
+Node        : Rivendell
+Process     : java <22095>
+Thread      : durability 7f31f88f8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558088.041674080
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:15 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22095>
+Thread      : durability 7f31f88f8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558095.050612323
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:28:57 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <22216>
+Thread      : main thread 7f4e0f606700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558137.957256066
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:57 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <22216>
+Thread      : spliced 7f4e0c013700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558137.977031468
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:57 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <22216>
+Thread      : spliced 7f4e0c013700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558137.998499861
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22216>
+Thread      : spliced 7f4e0c013700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558138.000072416
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:58 PDT 2017
+Description : SOAP service is reachable via port 41161
+Node        : Rivendell
+Process     : java <22216>
+Thread      : cmsoap 7f4d9b9ea700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558138.006301549
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22216>
+Thread      : cmsoap 7f4d9b9ea700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558138.006895302
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22216>
+Thread      : ddsi2 7f4d9b319700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558138.024170441
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:28:58 PDT 2017
+Description : The durability service can by identified by ID: 252151104
+Node        : Rivendell
+Process     : java <22216>
+Thread      : durability 7f4d9b68b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558138.134936555
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:29:05 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22216>
+Thread      : durability 7f4d9b68b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558145.144433176
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <22470>
+Thread      : main thread 7f1e56a6c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558353.461374130
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <22470>
+Thread      : spliced 7f1e241ff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558353.479971001
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <22470>
+Thread      : spliced 7f1e241ff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558353.493995830
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22470>
+Thread      : spliced 7f1e241ff700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558353.495547704
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : SOAP service is reachable via port 33681
+Node        : Rivendell
+Process     : java <22470>
+Thread      : cmsoap 7f1e1ee27700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558353.497993291
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22470>
+Thread      : cmsoap 7f1e1ee27700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558353.498414006
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22470>
+Thread      : ddsi2 7f1e1e745700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558353.508607308
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:33 PDT 2017
+Description : The durability service can by identified by ID: 232990128
+Node        : Rivendell
+Process     : java <22470>
+Thread      : durability 7f1e1eac8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558353.520536521
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:32:40 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22470>
+Thread      : durability 7f1e1eac8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558360.529369813
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <22588>
+Thread      : main thread 7f0c83558700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558405.065624469
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <22588>
+Thread      : spliced 7f0c6c02a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558405.085210062
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <22588>
+Thread      : spliced 7f0c6c02a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558405.107455057
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22588>
+Thread      : spliced 7f0c6c02a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558405.109586435
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : SOAP service is reachable via port 42481
+Node        : Rivendell
+Process     : java <22588>
+Thread      : cmsoap 7f0c578f1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558405.111991944
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22588>
+Thread      : cmsoap 7f0c578f1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558405.112408455
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22588>
+Thread      : ddsi2 7f0c57220700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558405.124785922
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:25 PDT 2017
+Description : The durability service can by identified by ID: 140837260
+Node        : Rivendell
+Process     : java <22588>
+Thread      : durability 7f0c57592700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558405.235899755
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:33:32 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22588>
+Thread      : durability 7f0c57592700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558412.245133641
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <22763>
+Thread      : main thread 7f1fb8ad8700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558558.020781245
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <22763>
+Thread      : spliced 7f1fb40cb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558558.039117521
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <22763>
+Thread      : spliced 7f1fb40cb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558558.052642376
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22763>
+Thread      : spliced 7f1fb40cb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558558.054210493
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : SOAP service is reachable via port 42195
+Node        : Rivendell
+Process     : java <22763>
+Thread      : cmsoap 7f1f78ddb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558558.057245131
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22763>
+Thread      : cmsoap 7f1f78ddb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558558.057791836
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22763>
+Thread      : ddsi2 7f1f7870a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558558.067636946
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:35:58 PDT 2017
+Description : The durability service can by identified by ID: 1908767873
+Node        : Rivendell
+Process     : java <22763>
+Thread      : durability 7f1f78a7c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558558.079489660
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:36:05 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <22763>
+Thread      : durability 7f1f78a7c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558565.089242111
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <23055>
+Thread      : main thread 7fab20269700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492558788.345944161
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <23055>
+Thread      : spliced 7fab0803c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492558788.371605325
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <23055>
+Thread      : spliced 7fab0803c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492558788.385515514
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23055>
+Thread      : spliced 7fab0803c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558788.387145865
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : SOAP service is reachable via port 46144
+Node        : Rivendell
+Process     : java <23055>
+Thread      : cmsoap 7faae062e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492558788.393359983
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23055>
+Thread      : cmsoap 7faae062e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558788.394166976
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23055>
+Thread      : ddsi2 7faae01bd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558788.404522586
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:48 PDT 2017
+Description : The durability service can by identified by ID: 1665723047
+Node        : Rivendell
+Process     : java <23055>
+Thread      : durability 7faae02cf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492558788.416752011
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:39:55 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23055>
+Thread      : durability 7faae02cf700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492558795.432563943
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <23382>
+Thread      : main thread 7f894672c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492559190.066697796
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <23382>
+Thread      : spliced 7f8944055700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492559190.085074255
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <23382>
+Thread      : spliced 7f8944055700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492559190.099287127
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23382>
+Thread      : spliced 7f8944055700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492559190.100950990
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : SOAP service is reachable via port 38055
+Node        : Rivendell
+Process     : java <23382>
+Thread      : cmsoap 7f88e2a4c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492559190.103488654
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23382>
+Thread      : cmsoap 7f88e2a4c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492559190.104202759
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23382>
+Thread      : ddsi2 7f88e237b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492559190.122928230
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:30 PDT 2017
+Description : The durability service can by identified by ID: 1306768866
+Node        : Rivendell
+Process     : java <23382>
+Thread      : durability 7f88e26ed700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492559190.228040489
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 16:46:37 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <23382>
+Thread      : durability 7f88e26ed700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492559197.236009286
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <24388>
+Thread      : main thread 7f7107538700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492561795.031163104
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <24388>
+Thread      : spliced 7f7104064700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492561795.049768025
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <24388>
+Thread      : spliced 7f7104064700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492561795.063337121
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24388>
+Thread      : spliced 7f7104064700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561795.064784962
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : SOAP service is reachable via port 43698
+Node        : Rivendell
+Process     : java <24388>
+Thread      : cmsoap 7f70db870700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492561795.067502476
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24388>
+Thread      : cmsoap 7f70db870700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561795.068082852
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24388>
+Thread      : ddsi2 7f70db19f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561795.078229930
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:29:55 PDT 2017
+Description : The durability service can by identified by ID: 740003099
+Node        : Rivendell
+Process     : java <24388>
+Thread      : durability 7f70db511700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492561795.089946252
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:02 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24388>
+Thread      : durability 7f70db511700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561802.099050521
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <24645>
+Thread      : main thread 7fbd46d36700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492561826.136860633
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <24645>
+Thread      : spliced 7fbd4404f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492561826.155446107
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <24645>
+Thread      : spliced 7fbd4404f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492561826.169350520
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24645>
+Thread      : spliced 7fbd4404f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561826.170948380
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : SOAP service is reachable via port 41588
+Node        : Rivendell
+Process     : java <24645>
+Thread      : cmsoap 7fbd1f030700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492561826.175606639
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24645>
+Thread      : cmsoap 7fbd1f030700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561826.176151053
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24645>
+Thread      : ddsi2 7fbd1e95f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561826.187433634
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:26 PDT 2017
+Description : The durability service can by identified by ID: 509996160
+Node        : Rivendell
+Process     : java <24645>
+Thread      : durability 7fbd1ecd1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492561826.198199157
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 17:30:33 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <24645>
+Thread      : durability 7fbd1ecd1700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492561833.207497834
+========================================================================================
+Report      : WARNING
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : Rivendell
+Process     : java <25629>
+Thread      : main thread 7f564a019700
+Internals   : V6.4.140320OSS/24b1387/24b1387/OS abstraction layer/os_signalHandler.c/107/0/1492564359.643516007
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : u_domainNew:Database allocated on heap
+Node        : Rivendell
+Process     : java <25629>
+Thread      : spliced 7f56300ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1492564359.662626581
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : Rivendell
+Process     : java <25629>
+Thread      : spliced 7f56300ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1492564359.676187153
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <25629>
+Thread      : spliced 7f56300ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492564359.678230342
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : SOAP service is reachable via port 32803
+Node        : Rivendell
+Process     : java <25629>
+Thread      : cmsoap 7f5612370700
+Internals   : V6.4.140320OSS/24b1387/24b1387/CM SOAP Service/cms_service.c/410/0/1492564359.681328237
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <25629>
+Thread      : cmsoap 7f5612370700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492564359.681903137
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <25629>
+Thread      : ddsi2 7f5611c9f700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492564359.692217242
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:39 PDT 2017
+Description : The durability service can by identified by ID: 2073855535
+Node        : Rivendell
+Process     : java <25629>
+Thread      : durability 7f5612011700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1492564359.707814382
+========================================================================================
+Report      : INFO
+Date        : Tue Apr 18 18:12:46 PDT 2017
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : Rivendell
+Process     : java <25629>
+Thread      : durability 7f5612011700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1492564366.717479261

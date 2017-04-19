@@ -7,24 +7,35 @@ import org.lsst.sal.SAL_camera;
  *
  * @author tonyj
  */
-class StandbyCommand extends CameraCommand {
+public class StandbyCommand extends CameraCommand {
 
-    public StandbyCommand(int cmdId, SAL_camera mgr) {
+    public StandbyCommand() {
+        
+    }
+    
+    StandbyCommand(int cmdId, SAL_camera mgr) {
         super(cmdId, mgr);
     }
 
     @Override
     CommandResponse issueCommand(SAL_camera mgr) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        camera.command_standby cmd = new camera.command_standby();
+        int cmdId = mgr.issueCommand_standby(cmd);
+        return new CommandResponse(mgr, this,cmdId);
     }
 
     @Override
-    public void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
+        mgr.waitForCompletion_standby(cmdId, (int) timeout.getSeconds());
     }
 
     @Override
     void acknowledgeCommand(int response, int timeout, String message) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }  
+        getManager().ackCommand_standby(getCmdId(), response, timeout, message);
+    }
+
+    @Override
+    public String toString() {
+        return "StandbyCommand{" + '}';
+    }
 }

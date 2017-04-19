@@ -7,26 +7,41 @@ import org.lsst.sal.SAL_camera;
  *
  * @author tonyj
  */
-class SetFilterCommand extends CameraCommand {
+public class SetFilterCommand extends CameraCommand {
 
-    String filterName;
-    public SetFilterCommand(int cmdId, SAL_camera mgr, String name) {
+    private final String filterName;
+    SetFilterCommand(int cmdId, SAL_camera mgr, String name) {
         super(cmdId, mgr);
         this.filterName = name;
     }
 
-    @Override
-    CommandResponse issueCommand(SAL_camera mgr) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public SetFilterCommand(String name) {
+        this.filterName = name;
     }
 
+    public String getFilterName() {
+        return filterName;
+    }
+    
     @Override
-    public void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    CommandResponse issueCommand(SAL_camera mgr) {
+        camera.command_setFilter cmd = new camera.command_setFilter();
+        cmd.name = filterName;
+        int cmdId = mgr.issueCommand_setFilter(cmd);
+        return new CommandResponse(mgr, this,cmdId);    }
+
+    @Override
+    void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
+        mgr.waitForCompletion_setFilter(cmdId, (int) timeout.getSeconds());
     }
 
     @Override
     void acknowledgeCommand(int response, int timeout, String message) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        getManager().ackCommand_setFilter(getCmdId(), response, timeout, message);
     } 
+
+    @Override
+    public String toString() {
+        return "SetFilterCommand{" + "filterName=" + filterName + '}';
+    }
 }

@@ -20,7 +20,7 @@ public class SummaryStateEvent extends CameraEvent {
         OFFLINE_PUBLISH_ONLY, OFFLINE_AVAILABLE, STANDBY, DISABLED, ENABLED, FAULT
     };
 
-    SummaryStateEvent(int priority, LSE209State state) {
+    public SummaryStateEvent(int priority, LSE209State state) {
         super(priority);
         this.state = state;
     }

@@ -24,12 +24,17 @@ public class EnableCommand extends CameraCommand {
     }
 
     @Override
-    public void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
+    void waitForResponse(SAL_camera mgr, int cmdId, Duration timeout) {
         mgr.waitForCompletion_enable(cmdId, (int) timeout.getSeconds());
     }
 
     @Override
-    public void acknowledgeCommand(int response, int timeout, String message) {
+    void acknowledgeCommand(int response, int timeout, String message) {
         getManager().ackCommand_enable(getCmdId(), response, timeout, message);
+    }
+
+    @Override
+    public String toString() {
+        return "EnableCommand{" + '}';
     }
 }

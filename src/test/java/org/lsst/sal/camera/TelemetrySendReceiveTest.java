@@ -12,17 +12,18 @@ import static org.junit.Assert.assertTrue;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.lsst.sal.camera.SummaryStateEvent.LSE209State;
+import static org.junit.Assert.assertTrue;
 
 /**
  * 
  * @author tonyj
  */
-public class TelemetrySendTest {
+public class TelemetrySendReceiveTest {
 
     private static SALCamera camera;
     private static ExecutorService executor;
 
-    public TelemetrySendTest() {
+    public TelemetrySendReceiveTest() {
     }
 
     @BeforeClass

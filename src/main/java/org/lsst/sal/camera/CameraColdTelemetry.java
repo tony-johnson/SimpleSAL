@@ -1,5 +1,6 @@
 package org.lsst.sal.camera;
 
+import camera.Cold;
 import org.lsst.sal.SAL_camera;
 
 /**
@@ -31,7 +32,31 @@ public class CameraColdTelemetry extends CameraTelemetry {
     private final short[] Valve_status = new short[6];
     
     public CameraColdTelemetry() {
-        
+       
+    }
+
+    CameraColdTelemetry(Cold data) {
+        System.arraycopy(Compressor_load,0,data.Compressor_load,0,Compressor_load.length);
+        System.arraycopy(Compressor_speed,0,Compressor_speed,0,Compressor_speed.length);
+        System.arraycopy(Dischaarge_pressure,0,data.Dischaarge_pressure,0,Dischaarge_pressure.length);
+        System.arraycopy(Discharge_temp ,0,data.Discharge_temp,0,Discharge_temp.length);
+        System.arraycopy(Flow_interlock, 0, data.Flow_interlock,0,Flow_interlock.length);
+        System.arraycopy(Heater_current, 0, data.Heater_current,0,Heater_current.length);
+        System.arraycopy(Heater_voltage, 0, data.Heater_voltage,0,Heater_voltage.length);
+        System.arraycopy(Intake_flow, 0, data.Intake_flow,0,Intake_flow.length);
+        System.arraycopy(Intake_pressure, 0, data.Intake_pressure,0,Intake_pressure.length);
+        System.arraycopy(Intake_temp, 0, data.Intake_temp,0,Intake_temp.length);
+        System.arraycopy(Ion_pump, 0, data.Ion_pump,0,Ion_pump.length);
+        System.arraycopy(Mech_pump, 0, data.Mech_pump,0,Mech_pump.length);
+        System.arraycopy(Post_expansion_pressure, 0, data.Post_expansion_pressure,0,Post_expansion_pressure.length);
+        System.arraycopy(Post_expansion_temp, 0, data.Post_expansion_temp,0,Post_expansion_temp.length);
+        System.arraycopy(Pre_expansion_pressure, 0, data.Pre_expansion_pressure,0,Pre_expansion_pressure.length);
+        System.arraycopy(Pre_expansion_temp, 0, data.Pre_expansion_temp,0,Pre_expansion_temp.length);
+        System.arraycopy(RGA, 0, data.RGA,0,RGA.length);
+        System.arraycopy(Return_temp, 0, data.Return_temp,0,Return_temp.length);
+        UtilityRoom_temperature = data.UtilityRoom_temperature;
+        System.arraycopy(Vacuum_gauge, 0, data.Vacuum_gauge,0,Vacuum_gauge.length);
+        System.arraycopy(Valve_status, 0, data.Valve_status,0,Valve_status.length);
     }
 
     public float getUtilityRoom_temperature() {

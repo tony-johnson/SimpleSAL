@@ -140,4 +140,27 @@ class SALCameraImplementation extends SALCamera {
        telemetry.putSample(mgr);
     }
 
+    @Override
+    @SuppressWarnings("SleepWhileInLoop")
+    public CameraTelemetry getTelemetry(Duration timeout) throws SALException {
+        Instant stop = Instant.now().plus(timeout);
+
+        // Currently we have to poll for each event
+        mgr.salTelemetrySub("camera_Cold");
+        camera.Cold coldData = new camera.Cold();
+
+        while (!Instant.now().isAfter(stop)) {
+            int rc = mgr.getSample(coldData);
+            if (rc == SAL_camera.SAL__OK) {
+                return new CameraColdTelemetry(coldData);
+            }
+            try {
+                // FIXME: Would be great if we did not have to poll
+                Thread.sleep(10);
+            } catch (InterruptedException ex) {
+                throw new SALException("Unexpected interupt while polling for event", ex);
+            }
+        }
+        return null; // Timeout     }
+
 }

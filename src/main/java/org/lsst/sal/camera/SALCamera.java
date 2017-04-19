@@ -49,4 +49,7 @@ public abstract class SALCamera {
     public abstract void logEvent(CameraEvent event) throws SALException;
     
     public abstract CameraEvent getNextEvent(Duration timeout) throws SALException;
+    
+    public abstract void sendTelemetry(CameraTelemetry telemetry) throws SALException;
+      
 }

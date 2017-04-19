@@ -28,6 +28,8 @@ class SALCameraImplementation extends SALCamera {
         mgr.salProcessor("camera_command_exitControl");
         mgr.salProcessor("camera_command_start");
         mgr.salProcessor("camera_command_standby");
+        // Telemetry (note may also need salTelemetrySub to subscribe)
+        mgr.salTelemetryPub("camera_Cold");
     }
 
     @Override
@@ -131,6 +133,11 @@ class SALCameraImplementation extends SALCamera {
             }
         }
         return null; // Timeout        
+    }
+
+    @Override
+    public void sendTelemetry(CameraTelemetry telemetry) throws SALException {
+       telemetry.putSample(mgr);
     }
 
 }

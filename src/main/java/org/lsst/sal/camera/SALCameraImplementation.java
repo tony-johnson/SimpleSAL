@@ -161,6 +161,6 @@ class SALCameraImplementation extends SALCamera {
                 throw new SALException("Unexpected interupt while polling for event", ex);
             }
         }
-        return null; // Timeout     }
-
+        return null; // Timeout 
+    }
 }
